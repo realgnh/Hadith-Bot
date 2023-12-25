@@ -58,7 +58,7 @@ async def scheduled_message():
         for k in water:
             embed.add_field(name='Daily Islam Fact', value=k.text_content().strip(), inline=False)
             
-        await channel.send(embed=embed)
+        await channel.send('@everyone', embed=embed)
             
             
     else:
