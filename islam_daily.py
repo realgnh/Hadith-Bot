@@ -62,7 +62,7 @@ async def scheduled_message():
             
             
     else:
-        print("⚠️ERROR: Invalid Xpath ")
+        print("ERROR: {response.status_code} ⚠️")
         
 #This code is for the bot to start the loop of the scheduled message
 @bot.event
